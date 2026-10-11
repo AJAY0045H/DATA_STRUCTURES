@@ -23,6 +23,8 @@ int main(){
     display(arr,n);
     selectionSort(arr,n);
     display(arr,n);
+    
+    free(arr);
 }
 void display(int arr[], int n){
     int i = 0;
